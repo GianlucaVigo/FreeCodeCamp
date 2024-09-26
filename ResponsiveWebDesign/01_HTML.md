@@ -89,7 +89,98 @@ It allows to associate an img with a caption:
 
 \</figure>
 
-### Emphasis
+### Emphasis [italic]
 Place emphasis on a word/phrase:
 
 \<em> *content* \</em>
+
+### Strong [bold]
+Indicate something is of strong importance or urgent.
+
+\<strong> *content* \</strong>
+
+### Form
+Get information from user (for instance: name, email, ...)
+
+Attributes:
+- action: indicates where the data should be sent.
+
+\<form action=""> *content* \</form>
+
+### Input [VOID ELEMENT] [INLINE ELEMENT]
+Several ways to collect data from a form. It's defined within a *form* element.
+
+Attributes:
+- type: text, checkbox, radio, ...
+- name: it is used to access form's data/field. If multiple associated inputs (multiple radios, ...), use this attribute with same value to have only one alternative that can be selected
+- placeholder: hint about what kind of information to enter into an input
+- required: if the field is required/compulsory
+- id: it's used to identify in a unique way specific HTML elements
+- value: if not binary, you can specify a more semantic value
+- checked: (for checkbox, radio) option selected by default
+
+\<input type="" name="" placeholder="" id="" value="" required checked> *content*
+
+### Button [INLINE ELEMENT]
+Add a clickable button. The default behaviour of clicking it is to submit the form to the location specified in the form's action attribute.
+
+Attributes:
+- type: submit, ...
+
+\<button type=""> *Button_label* \</button>
+
+### Label
+It's used to associate the text for an input element with the input element itself
+
+\<label>\<input type=""> *content* \</label>
+
+### Fieldset
+It's used to associate input and label elements together in a web form.
+
+\<fieldset> *inputs + labels* \</fieldset>
+
+### Legend
+Caption for a form. Defined within a fieldset element.
+
+\<legend> *content* \</legend>
+
+### Footer
+Define the footer for a document. It contains info like: author, contacts, copyright, ...
+
+\<footer> *content* \</footer>
+
+### Body
+Everything visible in a webpage.
+
+\<body> *content* \</body>
+
+### Head
+Everything "invisible" in a webpage: metadata.
+
+\<head> *content* \</head>
+
+### Title
+Defined in a head element. It defines what the browser will show in the title bar or tab of the page.
+
+\<title> *content* \</title>
+
+### Meta [VOID ELEMENT]
+Defined in a head element. It defines multiple metadata.
+
+Attributes:
+- charset: specify the characters encoding (ex. utf-8)
+
+\<meta charset="">
+
+### HTML
+Contains everything: head + body
+
+\<html> *content* \</html>
+
+Attributes:
+- lang: specify the used language (ex. en, ...)
+
+### DOCTYPE
+The document is an HTML5 document
+
+\<!DOCTYPE html>
