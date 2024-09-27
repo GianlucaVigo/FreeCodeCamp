@@ -169,6 +169,8 @@ Defined in a head element. It defines multiple metadata.
 
 Attributes:
 - charset: specify the characters encoding (ex. utf-8)
+- content: different devices' dimensions (mobile, desktop, laptop, ...)
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 \<meta charset="">
 
