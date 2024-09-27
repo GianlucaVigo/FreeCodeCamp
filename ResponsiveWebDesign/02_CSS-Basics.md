@@ -13,6 +13,14 @@ element1, element2, ... {
   
 }
 
+OR
+
+\#id1 {
+
+property: value;
+
+}
+
 For instance: h1 {text-align: center}.
 
 ## External CSS Style file
@@ -24,3 +32,52 @@ Defined in the <head> element.
 Attributes:
 - rel: specify the type of linked document (ex. stylesheet, ...)
 - href: specify the address of the resource (ex. styles.css)
+
+## Div
+It's used mainly for design layout purposes.
+
+## CSS comment
+/* *comment* */
+
+## Class selector
+It's common to use different selectors to style elements.
+
+.class-name{
+
+*styles*
+
+}
+
+OR
+
+.class-name ELEMENT{
+
+*styles*
+
+}
+
+
+Instead of id, use class attribute.
+
+## Article
+Contains multiple elements that have related information. (ex. p elements)
+
+\<article> *content* \</article>
+
+# CSS Properties
+
+Properties:
+- width (in px or %)
+- background-color
+- text-align (center, rigth, left)
+- margin-left (auto)
+- margin-right (auto)
+- background-image (url(https://URL))
+- display (inline block)
+- padding-LOCATION, LOCATION:{left, right, top, bottom} (in px)
+- max-width (in px)
+- padding (in px)
+- font-family (sans-serif, Impact, ...)
+- font-style (italic, ...)
+- font-size
+
