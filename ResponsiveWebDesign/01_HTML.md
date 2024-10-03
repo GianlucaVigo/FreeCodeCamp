@@ -144,6 +144,11 @@ Caption for a form. Defined within a fieldset element.
 
 \<legend> *content* \</legend>
 
+### Horizontal Rule [VOID ELEMENT]
+It draws an horizontal rule to divide different sections
+
+\<hr>
+
 ### Footer
 Define the footer for a document. It contains info like: author, contacts, copyright, ...
 
