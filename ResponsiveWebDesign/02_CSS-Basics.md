@@ -80,5 +80,6 @@ Properties:
 - font-family (sans-serif, Impact, ...)
 - font-style (italic, ...)
 - font-size
-- height
+- height (for hr element, ...)
+- border-color (for hr element, ...)
 
