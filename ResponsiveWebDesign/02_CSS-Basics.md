@@ -70,8 +70,7 @@ Properties:
 - width (in px or %)
 - background-color
 - text-align (center, rigth, left)
-- margin-left (auto)
-- margin-right (auto)
+- margin-LOCATION, LOCATION:{left, right, top, bottom} (in px)
 - background-image (url(https://URL))
 - display (inline block)
 - padding-LOCATION, LOCATION:{left, right, top, bottom} (in px)
@@ -82,4 +81,3 @@ Properties:
 - font-size
 - height (for hr element, ...)
 - border-color (for hr element, ...)
-
