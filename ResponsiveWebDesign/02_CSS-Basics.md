@@ -81,3 +81,4 @@ Properties:
 - font-size
 - height (for hr element, ...)
 - border-color (for hr element, ...)
+- color (for links)
