@@ -25,7 +25,7 @@ For instance: h1 {text-align: center}.
 
 OR 
 
-a:visited {
+a:(visited/hover) {
 
 property: value
 
