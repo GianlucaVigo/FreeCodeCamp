@@ -23,6 +23,16 @@ property: value;
 
 For instance: h1 {text-align: center}.
 
+OR 
+
+a:visited {
+
+property: value
+
+}
+
+For visited links
+
 ## External CSS Style file
 There's no need to put the <style> tags. It can be referenced by means of the link element.
 
