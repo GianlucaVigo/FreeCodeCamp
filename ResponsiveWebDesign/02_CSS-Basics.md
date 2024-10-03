@@ -80,4 +80,5 @@ Properties:
 - font-family (sans-serif, Impact, ...)
 - font-style (italic, ...)
 - font-size
+- height
 
